@@ -1,6 +1,6 @@
 package a915;
 
-import java.util.Scanner;
+import java.util.Date;
 
 public class Device {
     private int id;
@@ -63,7 +63,7 @@ public class Device {
         this.update = update;
     }
 
-    public Device() {
+    public Device(String name, int status, Date date) {
     }
 
     public Device(int id, int code, String name, String type, String status, String update) {

@@ -30,3 +30,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 含明文数据库连接信息，不入库 ###
+src/a917/Demo/
+**/JdbcUtils.java
